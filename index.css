@@ -1,0 +1,66 @@
+body {
+    margin-top: 35px !important;
+  text-align: center !important;
+  background-color: #caf0f8 !important;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 500px;
+
+}
+
+#Head-title {
+   font-size: 25pt;
+   color: #343a40;
+   margin-bottom: 5px;
+}
+
+div #underline {
+    margin: 0 auto 0 auto;
+    margin-top: 0;
+    border-bottom:5px solid #00b4d8 ;
+    width: 80px;
+}
+
+.person-img {
+  margin: 20px 0 15px 0;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+#name{
+    font-size: 17pt;
+
+}
+
+#job{
+    font-size: 10pt;
+    color: #00b4d8;
+    font-weight: bold;
+}
+
+#prev-btn {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+#next-btn{
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.prev-next{
+    margin: 15px 0 20px 0 ;
+}
+
+#review{
+    margin: 45px 600px;
+    padding: 35px;
+    background-color: #90e0ef;
+    box-shadow:1px 1px 5px  rgba(0, 0, 0, 0.7);
+}
